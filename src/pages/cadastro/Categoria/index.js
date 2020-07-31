@@ -26,7 +26,9 @@ function AddCategory() {
     );
   }
   useEffect(() => {
-    const URL = 'https://lencinaflix.herokuapp.com/categorias';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://lencinaflix.herokuapp.com/categorias';
     fetch(URL)
       .then(async (resp) => {
         const response = await resp.json();
