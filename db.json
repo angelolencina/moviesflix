@@ -1,0 +1,16 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "name": "Ação",
+      "description": "Filmes e séries com o mais alto grau de ação",
+      "cor": "#cBD1FF"
+    },
+    {
+      "id": 2,
+      "name": "Front End",
+      "description": "Categoria Show",
+      "cor": "#cBD1FF"
+    }
+  ]
+}
